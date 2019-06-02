@@ -27,3 +27,4 @@ yarn run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+A simple Drawer for bulma.io applications, made with Vue.js (Buefy recomended)
