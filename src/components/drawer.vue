@@ -71,18 +71,21 @@ export default {
         margin-left: 0;
       }
     }
-    @media screen and (max-width: 1086px), print {
+    @media screen and (max-width: 1086px) {
       &.is-active {
         width: auto;
       }
     }
+    @media screen and (max-width: 1230px) {
+      min-width: 25%;
+    }
+    
     @media screen and (min-width: 1087px) {
       // width: auto;
       position: static;
       padding-left: 0.75rem;
       visibility: visible;
       margin-top: 0.75rem;
-      min-width: 25%;
       &-inner {
         width: auto;
         margin-left: 0;
