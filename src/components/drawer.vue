@@ -82,6 +82,7 @@ export default {
       padding-left: 0.75rem;
       visibility: visible;
       margin-top: 0.75rem;
+      min-width: 25%;
       &-inner {
         width: auto;
         margin-left: 0;
